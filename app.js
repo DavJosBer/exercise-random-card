@@ -1,9 +1,9 @@
 function generate() {
     const cardAtrr = ['♦', '♥', '♠', '♣'];
-    const cardValue = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'];
+    const cardValue = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'];
     //
     const randomAttr = Math.floor(Math.random() * (4 - 0) + 0);
-    const randomValue = Math.floor(Math.random() * (14 - 0) + 0);
+    const randomValue = Math.floor(Math.random() * (13 - 0) + 0);
     //
     const color = ['text-danger', 'text-dark'];
     //
